@@ -123,6 +123,13 @@ footer {
   color: rgb(240,96,96);
   grid-area:footer;
   grid-row: 3 / 4;
+  margin-top: 10px;
+}
+footer input {
+  margin: 5px 0px;
+}
+footer label {
+  text-align: left;
 }
 footer a {
   color: rgb(240,96,96);
