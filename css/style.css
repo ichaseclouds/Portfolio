@@ -80,7 +80,9 @@ header h1 {
   padding: 20px;
 }
 header h2 {
-  color: rgb(140,190,178);
+  /*color: rgb(140,190,178);*/
+  color: rgb(243, 181, 98);
+  font-size: 4.0em;
 }
 
 main {
@@ -141,7 +143,7 @@ footer #gaming {
   width: 2.0em;
   fill: rgb(240,96,96);
 }
-footer .fa {
+footer .icon {
   font-size: 2.0em;
 }
 /* Media Queries */
