@@ -11,12 +11,14 @@ body {
   margin: 0 auto;
 }
 .wrapper {
-  width: 320px;
+  width: 360px;
+
   text-align: center;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-areas:
-  margin: 0 auto;
+
   "header"
   "main"
   "footer";
@@ -87,12 +89,12 @@ header h2 {
 
 main {
   background-color: #fff;
-  width: 314px;
+  width: 360px;
   height: auto;
   margin: 0 auto;
   border-color: rgb(243, 181, 98);
   border-style: solid;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   grid-area: main;
   grid-row: 2 / 3;
 }
@@ -102,7 +104,7 @@ main h2 {
 }
 
 main section {
-  width: 300px;
+  width: 360px;
   height: auto;
   margin: 0 auto;
 }
@@ -121,6 +123,7 @@ main .bio {
   padding: 0 10px;
 }
 footer {
+  width: 356px;
   text-align: center;
   color: rgb(240,96,96);
   grid-area:footer;
@@ -139,14 +142,14 @@ footer a {
 footer a:hover {
   color: #fff;
 }
-footer #gaming {
-  width: 2.0em;
-  fill: rgb(240,96,96);
-}
+
 footer .icon {
   font-size: 2.0em;
 }
+
+
 /* Media Queries */
+/
 @media only screen and (min-width: 600px){
   .wrapper {
     margin: 0 auto;
@@ -214,6 +217,7 @@ footer .icon {
 @media only screen and (min-width: 900px) {
   .wrapper {
     margin: 0 auto;
+
     width: 900px;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas:
