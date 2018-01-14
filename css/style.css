@@ -6,7 +6,7 @@ font-family: 'Roboto', sans-serif;
 */
 
 body {
-  background: url('/images/wood.jpg') repeat;
+  background: url('/images/wood.jpg') repeat rgb(45,45,45);
   font-family: 'Cormorant Garamond', serif;
   margin: 0 auto;
 }
@@ -84,9 +84,30 @@ header h1 {
 header h2 {
   /*color: rgb(140,190,178);*/
   color: rgb(243, 181, 98);
-  font-size: 4.0em;
+  font-size: 2.5em;
+  margin: 0;
 }
-
+nav ul {
+  margin: 0 auto;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  margin: 0 auto;
+}
+nav a {
+  color: rgb(255,255,255);
+  text-decoration: none;
+  text-transform: capitalize;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+nav a:hover {
+  color: rgb(240,96,96);
+  text-decoration: underline;
+}
 main {
   background-color: #fff;
   width: 360px;
@@ -94,7 +115,7 @@ main {
   margin: 0 auto;
   border-color: rgb(243, 181, 98);
   border-style: solid;
-  /*border-radius: 5px;*/
+  border-radius: 5px;
   grid-area: main;
   grid-row: 2 / 3;
 }
